@@ -20,7 +20,7 @@ spec:
                 source: demo
         spec:
             containers:
-                -   image: nginx:latest
+                -   image: 219099013464.dkr.ecr.us-west-2.amazonaws.com/david-solo-microservice
                     name: david-solo-microservice
                     ports:
                         -   name: web
