@@ -55,7 +55,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /david-solo
+                    -   path: /david-solo(/|$)(.*)
                         backend:
                             serviceName: david-solo-microservice-service
                             servicePort: 30201
